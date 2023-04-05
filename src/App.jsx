@@ -3,6 +3,7 @@ import { Header } from "./components/Header/Header";
 import { Users } from "./components/Users/Users";
 import { Tasks } from "./components/Tasks/Tasks";
 import { Home } from "./components/Home/Home";
+import { CreateTask } from "./components/CreateTask/CreateTask";
 
 export function App() {
   return (

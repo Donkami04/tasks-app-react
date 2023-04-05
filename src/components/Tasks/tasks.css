@@ -1,5 +1,16 @@
 .tasks-container {
-    display: flex;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(230px, 1fr));
+    grid-gap: 20px;
     text-align: center;
     align-items: center;
-}
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+  
+  @media (max-width: 768px) {
+    .tasks-container {
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+  }
+  

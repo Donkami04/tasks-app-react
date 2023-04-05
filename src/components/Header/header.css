@@ -1,23 +1,34 @@
 * {
   list-style: none;
   text-decoration: none;
-  font-family: Arial, Helvetica, sans-serif;
   padding: 0;
+  margin: 0;
+  font-family: 'Montserrat', sans-serif;
 }
-
 .header-container {
   display: flex;
-  justify-content: center;
+  background-color: rgb(165, 13, 13);
+  height: 75px;
+  margin-bottom: 30px;
 }
-
 .navbar-container {
   display: flex;
-  flex-direction: space-between;
-  width: 300px;
+  justify-content: space-around;
+  width: 200px;
+  align-items: center;
+  font-size: 22px;
+  
 }
-
-.navbar-container li {
-  margin: auto;
+.navbar-container a {
+  color: white;
 }
-
-
+.header-container h1 {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  width: 250px;
+  align-items: center;
+}
+.logo a {
+  color: white; 
+}
